@@ -1,40 +1,32 @@
 -------------------------------------------------------------------------------------------
--- Author: Alex Shields-Weber --
--- Personal Project: Create a 3D-printable design of a N99(FFP3) mask in SolidWorks -- 
+Author: Alex Shields-Weber 
+Personal Project: Create a 3D-printable design of a N99(FFP3) mask in SolidWorks 
 -------------------------------------------------------------------------------------------
 1. Download the Project files 
 2. Launch SolidWorks to open files -- given that the software is installed & config on your device 
-
 3. Analyze and visualize the design of the mask within SolidWorks   
-    -- Orient your model on the print bed  
-    -- In order to print, your model cannot be larger than the print volume -- geometry outside print volume will be highlighted in red  
-    
+    -- Orient your model on the print bed to ensure it's not outside print volume (exceeded volume = highlighted in red)
+    -- Use Analytical tools for the build, layer height, and thickness/gap of model  
 4. Once your model is scaled to fit the 3D printer you will be using, you are ready to convert & export the 3D print files.
     -- My project files are scaled to fit a printer supporting SOLIDWORKS 3D Print API.
-    
-5. Within SolidWorks, convert the part & assembly files to STL(.stl), OR to 3D Manufacturing Format (.3mf)  
+5. Within SolidWorks, convert the part & assembly files to STL(*.stl), OR to 3D Manufacturing Format (*.3mf) OR to (*.amf) 
     -- STL file format output: Only the surface geometry of a 3D object as a raw, unstructured triangulated surface.
     -- 3MF file format output: The 3D model, material, and property information for sharing full-fidelity 3D models to other printers.
-
-6. Under Save To File, select your desired format and click Save File.  
-7. Import it into your printer’s slicer software -- to generate the G-code that the printer will use to print your design.
-
-
-FOR 3D MODEL PRINTING (*.3mf or *.amf) 
-
+6. Under Save To File, select your desired format and click Save File (*.3mf or *.amf) 
+-- Find a 3D printing facility/services & select materials for each part -- 
+7. Import it into the printer’s slicer software -- to generate the G-code that the printer will use to print your design.
+-------------------------------------------------------------------------------------------------------------------------
 Materials: 
-1. Filter/Mask: Polypropelene (PP Fiber) 
-2. Valve:  Polypropelene (PP Fiber) 
-3. Staples: Steel (to secure headband)
-4. Nose clip: metal, PP
-5. Sealing lip: synthetic foam (for comfort) 
-6. 4-point headband attachment: synthetic latex/Polyisoprene
-
--- Note: To imitate the FFP3 flat-fold mask: -- 
-1. use textile for the Headband material instead of rubber/latex 
-2. Add Hydrophobic coating 
-----------------------------------------------------------------------
-IMAGES OF MODEL:
+Filter/Mask: Polypropelene (PP Fiber) 
+Valve:  Polypropelene (PP Fiber) 
+Staples: Steel (to secure headband)
+Nose clip: metal, PP
+Sealing lip: synthetic foam (for comfort) 
+4-point headband attachment: synthetic latex/Polyisoprene
+----- Note ---- To imitate the FFP3 flat-fold mask: 
+- Use textile for the Headband material instead of rubber/latex 
+- Add Hydrophobic coating 
+-------------------------------------------------------------------------------------------------------------------------------
 ![34D516C3-FF75-4A9D-8B54-78EBC61C6AEF](https://user-images.githubusercontent.com/72238329/175376801-3ecb311d-818a-453e-a7cb-2fe965cb863e.jpeg)
 ![E1F5DBE9-8808-4E49-BD45-3FB171E47999](https://user-images.githubusercontent.com/72238329/175376805-6395e768-ddd5-460b-b788-3d99ea0b7dd4.jpeg)
 ![F7D802F9-EE31-482D-AE6B-C9824DC48626](https://user-images.githubusercontent.com/72238329/175376808-90f78445-8b55-49b2-a1bb-3a1b1a64c1fb.jpeg)
