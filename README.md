@@ -23,7 +23,8 @@ Staples: Steel (to secure headband)
 Nose clip: metal, PP
 Sealing lip: synthetic foam (for comfort) 
 4-point headband attachment: synthetic latex/Polyisoprene
------ Note ---- To imitate the FFP3 flat-fold mask: 
+
+To imitate the FFP3 flat-fold mask: 
 - Use textile for the Headband material instead of rubber/latex 
 - Add Hydrophobic coating 
 -------------------------------------------------------------------------------------------------------------------------------
